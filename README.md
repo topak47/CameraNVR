@@ -1,10 +1,12 @@
 # CameraNVR
 
-    CameraNVR是一款监控视频自动备份到网盘的工具，实现免费云备份，目前支持百度网盘和阿里云盘！
+CameraNVR是一款监控视频自动备份到网盘的工具，实现免费云备份，目前支持百度网盘和阿里云盘！
  
 可以利用一些价格低廉的设备（如：随身wifi，NAS，玩客云，电视盒子，猫盘，手机，矿机，工控机等功耗低的设备），
       
-刷上debian，ubuntu，linux，centos等系统，然后安装python软件，就可以运行此工具。
+刷上debian，ubuntu，linux，centos等轻量型系统，然后安装python软件，就可以运行此工具，
+
+当然你也可以在windows上使用。
 
 
 # 主要功能
