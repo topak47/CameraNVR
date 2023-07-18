@@ -24,36 +24,59 @@ CameraNVR是一款监控视频自动备份到网盘的工具，目前支持百�
 
 # 安装教程
 
+确保你已经安装了python3.0以上版本,可以通过下方命令查询是否安装。
+
+*   执行命令：：
+ 
+        <python3 --version>
+
 ### 您需要安装以下依赖项：
 
 #### 1，安装pip用于安装和管理Python软件包的命令行工具
-执行命令：
 
-sudo apt-get install python3-pip
+*   执行命令：：
+ 
+        <sudo apt-get install python3-pip>
+
 
 #### 2，安装bypy百度网盘库，用于百度网盘的文件上传和管理。
-执行命令：
 
-pip3 install bypy       （安装百度网盘）
-
-bypy info              （登录百度网盘获取cookie，填写后回车执行）
+*   执行命令：
+ 
+        <pip3 install bypy>
+       
+*   登录百度网盘获取cookie：
+ 
+        <bypy info>
+    
+  登录网盘后，复制终端里的百度网盘地址到浏览器打开，登录后获取cookie，然后黏贴到终端窗口回车
 
 #### 3，安装aligo阿里云盘库，用于阿里云盘的文件上传和管理。
-执行命令：
 
-pip3 install aligo
+*   执行命令：
+ 
+        <pip3 install aligo>
+
 
 #### 4，安装OpenCV库，用于视频捕获、处理和录制。您可以通过以下命令使用pip安装：
-执行命令：
 
-pip install opencv-python
+*   执行命令：
+ 
+        <pip install opencv-python>
 
-#### 5，下载源码
-执行命令：
 
-apt install git
+#### 5，下载git工具
 
-git clone https://github.com/topak47/CameraNVR.git
+*   执行命令：
+ 
+        <apt install git>
+
+#### 6，下载源码
+
+*   执行命令：
+ 
+        <git clone https://github.com/topak47/CameraNVR.git>
+
 
 修改CameraNVR.py里面的配置：
 
@@ -69,10 +92,19 @@ git clone https://github.com/topak47/CameraNVR.git
 * upload_threshold = 500  # 视频上传总大小阈值（GB），当视频累计上传到这个阈值后，开始自动检测网盘百度网盘和阿里云盘的空间容量是否足够，不够采取删除！
 
 #### 6，运行
-执行命令：
-python3 pyNvr.py
 
-运行后阿里云盘用手机扫描登录！
+*  执行命令：
+ 
+        <python3 pyNvr.py>
+
+ 运行后阿里云盘用手机扫描登录！测试没问题后，ctrl+z退出运行
+
+ #### 7，运行后台运行程序:
+
+*  执行命令：
+ 
+        <nohup python3 pyNvr.py &>
+
 
 
 # 常见NVR摄像头码流
@@ -153,6 +185,7 @@ python3 pyNvr.py
 注意：涉及到有隐私的视频请勿使用本源码，上传到网盘中有可能会造成泄露！
 
 感谢各位大佬的分享的参考源码：
+
 https://github.com/wfxzf/pyNvr
 
 https://github.com/houtianze/bypy
