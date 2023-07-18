@@ -46,6 +46,7 @@ pip install opencv-python
 #### 5，下载源码
 执行命令：
 apt install git
+
 git clone https://github.com/topak47/CameraNVR.git
 
 修改CameraNVR.py里面的配置：
