@@ -28,23 +28,29 @@ CameraNVR是一款监控视频自动备份到网盘的工具，目前支持百�
 
 #### 1，安装pip用于安装和管理Python软件包的命令行工具
 执行命令：
+
 sudo apt-get install python3-pip
 
 #### 2，安装bypy百度网盘库，用于百度网盘的文件上传和管理。
 执行命令：
+
 pip3 install bypy       （安装百度网盘）
+
 bypy info              （登录百度网盘获取cookie，填写后回车执行）
 
 #### 3，安装aligo阿里云盘库，用于阿里云盘的文件上传和管理。
 执行命令：
+
 pip3 install aligo
 
 #### 4，安装OpenCV库，用于视频捕获、处理和录制。您可以通过以下命令使用pip安装：
 执行命令：
+
 pip install opencv-python
 
 #### 5，下载源码
 执行命令：
+
 apt install git
 
 git clone https://github.com/topak47/CameraNVR.git
