@@ -96,7 +96,7 @@ CameraNVR是一款监控视频自动备份到网盘的工具，实现免费云�
 
 *  执行命令：
  
-        python3 pyNvr.py
+        python3 CameraNVR.py
 
  运行后阿里云盘用手机扫描登录！测试没问题后，ctrl+z退出运行
 
@@ -104,7 +104,7 @@ CameraNVR是一款监控视频自动备份到网盘的工具，实现免费云�
 
 *  执行命令：
  
-        nohup python3 pyNvr.py
+        nohup python3 CameraNVR.py
 
 
 
