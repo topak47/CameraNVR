@@ -63,7 +63,7 @@ CameraNVR是一款监控视频自动备份到网盘的工具，实现免费云�
 
 *   执行命令：
  
-        pip install opencv-python
+        pip3 install opencv-python
 
 
 #### 5，下载git工具
