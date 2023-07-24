@@ -104,7 +104,7 @@ CameraNVR是一款监控视频自动备份到网盘的工具，实现免费云�
 
 *  执行命令：
  
-        nohup python3 CameraNVR.py
+        nohup python3 CameraNVR.py > nohup.out 2>&1 &
 
 
 
