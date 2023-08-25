@@ -8,6 +8,8 @@ CameraNVR是一款监控视频自动备份到网盘的工具，实现免费云�
 
 当然你也可以在windows上使用。
 
+# 使用教程
+[![监控视频，自动备份到百度网盘和阿里云盘！](https://res.cloudinary.com/marcomontalbano/image/upload/v1692928086/video_to_markdown/images/youtube--hWiwCpJyk0M-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/hWiwCpJyk0M "监控视频，自动备份到百度网盘和阿里云盘！")
 
 # 主要功能
 
